@@ -91,7 +91,7 @@ Install this project with:
 
 
 ```sh
-  cd bookstore
+  cd space-travelers-hub
   yarn 
   yarn start
 ```
