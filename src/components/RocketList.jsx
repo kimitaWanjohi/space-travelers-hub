@@ -2,7 +2,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchRockets } from '../redux/rockets/rocketSlice';
 import Rocket from './Rocket';
-// import { connect } from 'react-redux';
 
 const RocketList = () => {
   const { rockets, isLoading, error } = useSelector((store) => store.rockets);
@@ -24,7 +23,8 @@ const RocketList = () => {
               id={rocket.id}
               name={rocket.name}
               description={rocket.description}
-              images={rocket.flickr_images}
+              images={rocket.flickr_images[0]}
+              reserved={rocket.reserved}
             />
           ))}
         </ul>
