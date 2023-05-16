@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -20,6 +19,7 @@ export default function Navbar() {
           </li>
           <li className="mr-6">
             <NavLink
+              to="/missions"
               className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
             >
               Missions
@@ -27,6 +27,7 @@ export default function Navbar() {
           </li>
           <li>
             <NavLink
+              to="/my-profile"
               className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
             >
               My Profile
