@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -12,7 +11,7 @@ export default function Navbar() {
         <ul className="flex items-center">
           <li className="mr-6">
             <NavLink
-              to="/"
+              to="/rockets"
               className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
             >
               Rockets
