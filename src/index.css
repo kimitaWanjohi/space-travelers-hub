@@ -20,11 +20,13 @@ body {
 }
 
 .test-btn2 {
+  /* display: none; */
+  cursor: pointer;
   background-color: yellow;
   border: 1px solid green;
 }
 
-.test-btn2 {
+.test-btn2:checked {
   background-color: pink;
   border: 1px solid green;
 }
