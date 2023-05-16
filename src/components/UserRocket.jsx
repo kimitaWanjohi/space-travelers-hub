@@ -7,7 +7,7 @@ const UserRocket = () => {
       {rockets.map((rocket) => {
         if (rocket.reserved) {
           return (
-            <div key={rocket.id} className="flex justify-between items-center border-b border-gray-200 py-4">
+            <div key={rocket.id} className="flex justify-between items-center border-b border-gray-200 p-4 ">
               <div><h4 className="text-lg">{rocket.name}</h4></div>
               <hr className="my-4" />
             </div>
