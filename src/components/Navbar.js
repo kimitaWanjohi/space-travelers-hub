@@ -15,7 +15,7 @@ export default function Navbar() {
             <button
               type="button"
               className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/rockets")}
             >
               Rockets
             </button>
