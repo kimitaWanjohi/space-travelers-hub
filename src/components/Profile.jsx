@@ -1,4 +1,5 @@
 import UserMissions from "./UserMissions";
+import UserRocket from "./UserRocket";
 
 export default function Profile() {
   return (
@@ -12,6 +13,7 @@ export default function Profile() {
         <div className="w-full max-w-md">
           <h3 className="text-2xl font-bold">My Rockets</h3>
           <hr className="my-4" />
+          <UserRocket />
         </div>
       </div>
     </div>

@@ -10,7 +10,8 @@ function App() {
       <Navbar />
       <div className="container mx-auto">
         <Routes>
-          <Route path="/" element={<RocketList />} />
+          <Route exact path="/" element={<RocketList />} />
+          <Route exact path="/rockets" element={<RocketList />} />
           <Route path="/missions" element={<Missions />} />
           <Route path="/my-profile" element={<Profile />} />
         </Routes>
