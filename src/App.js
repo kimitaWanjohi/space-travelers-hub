@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Missions from "./components/Missions";
 import RocketList from './components/RocketList';
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<RocketList />} />
           <Route path="/missions" element={<Missions />} />
-          <Route path="/my-profile" element={<h1>My Profile</h1>} />
+          <Route path="/my-profile" element={<Profile />} />
         </Routes>
       </div>
     </BrowserRouter>
