@@ -12,7 +12,7 @@ const RocketList = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mt-6 mb-8">
       {isLoading && <div>Loading...</div>}
       {error && <div>{error}</div>}
       {rockets && (
