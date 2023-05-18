@@ -52,10 +52,10 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+ 
+## 🚀 Live Demo
 
-<!-- ## 🚀 Live Demo
-https://space-travelers-hub-app.netlify.app/
-
+<a href="https://space-travelers-hub-app.netlify.app/">Live demo <a/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
