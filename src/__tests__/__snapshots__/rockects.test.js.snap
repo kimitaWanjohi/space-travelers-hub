@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions renders correctly 1`] = `
+<div
+  className="mt-6 mb-8"
+>
+  <div>
+    Loading...
+  </div>
+  <ul />
+</div>
+`;
