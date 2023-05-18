@@ -17,7 +17,8 @@
       "object-curly-newline": "off",
       "react/prop-types": "off",
       "no-param-reassign": "off",
-      "import/extensions": "off"
+      "import/extensions": "off",
+      "import/no-extraneous-dependencies": "off"
     },
     "overrides": [
       {
