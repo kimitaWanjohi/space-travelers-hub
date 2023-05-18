@@ -10,26 +10,17 @@ export default function Navbar() {
         </div>
         <ul className="flex items-center">
           <li className="mr-6">
-            <NavLink
-              to="/"
-              className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
-            >
+            <NavLink to="/" className="text-md bg-white text-blue-500 cursor-pointer hover:text-blue-700">
               Rockets
             </NavLink>
           </li>
           <li className="mr-6">
-            <NavLink
-              to="/missions"
-              className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
-            >
+            <NavLink to="/missions" className="text-md bg-white text-blue-500 cursor-pointer hover:text-blue-700">
               Missions
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/my-profile"
-              className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
-            >
+            <NavLink to="/my-profile" className="text-md bg-white text-blue-500 cursor-pointer hover:text-blue-700">
               My Profile
             </NavLink>
           </li>
