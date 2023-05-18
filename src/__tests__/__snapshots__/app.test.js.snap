@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+Array [
+  <nav
+    className="py-5 px-2 shadow-md"
+  >
+    <div
+      className="container mx-auto flex items-baseline justify-between"
+    >
+      <div
+        className="flex items-center"
+      >
+        <img
+          alt="logo"
+          className="w-10"
+          src="/planet.png"
+        />
+        <h1
+          className="text-2xl font-bold ml-2"
+        >
+          Space Traveler's Hub
+        </h1>
+      </div>
+      <ul
+        className="flex items-center"
+      >
+        <li
+          className="mr-6"
+        >
+          <a
+            aria-current="page"
+            className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700 active"
+            href="/"
+            onClick={[Function]}
+          >
+            Rockets
+          </a>
+        </li>
+        <li
+          className="mr-6"
+        >
+          <a
+            className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
+            href="/missions"
+            onClick={[Function]}
+          >
+            Missions
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-md bg-white underline text-blue-500 cursor-pointer hover:text-blue-700"
+            href="/my-profile"
+            onClick={[Function]}
+          >
+            My Profile
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container mx-auto"
+  >
+    <div
+      className="mt-6 mb-8"
+    >
+      <div>
+        Loading...
+      </div>
+      <ul />
+    </div>
+  </div>,
+]
+`;
